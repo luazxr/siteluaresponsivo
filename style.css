@@ -1,0 +1,101 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.purple-text {
+    color: purple;
+}
+
+h1, h2 {
+    color: purple;
+}
+
+section {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsivo - Mobile First */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+}
